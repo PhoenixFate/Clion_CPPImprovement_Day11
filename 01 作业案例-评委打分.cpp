@@ -107,7 +107,7 @@ void test101()
     showScore(v);
 }
 
-int main() {
+int main1() {
     test101();
     std::cout << "Hello, World!" << std::endl;
     return 0;
