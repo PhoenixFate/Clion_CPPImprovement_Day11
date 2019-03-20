@@ -3,4 +3,4 @@ project(Clion_CPPImprovement_Day11)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Clion_CPPImprovement_Day11 "01 作业案例-评委打分.cpp" "02 stack栈容器.cpp")
+add_executable(Clion_CPPImprovement_Day11 "01 作业案例-评委打分.cpp" "02 stack栈容器.cpp" "03 queue容器.cpp")
