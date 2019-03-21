@@ -231,6 +231,18 @@ void test505()
     }
 }
 
+void test506()
+{
+    cout<<"-------------------06-------------------"<<endl;
+    multiset<int> s;
+    s.insert(10);
+    s.insert(10);
+    s.insert(1000);
+    for(multiset<int>::iterator it=s.begin();it!=s.end();it++)
+    {
+        cout<<*it<<endl;
+    }
+}
 
 int main5()
 {
@@ -239,5 +251,6 @@ int main5()
     test503();
     test504();
     test505();
+    test506();
     return 0;
 }
